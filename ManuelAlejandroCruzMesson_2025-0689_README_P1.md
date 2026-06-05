@@ -1,4 +1,4 @@
-# Laboratorio de Ciberseguridad: DHCP Starvation
+DHCP Starvation
 
 ## 1. Objetivo del Laboratorio
 El objetivo fundamental de este laboratorio es demostrar de forma práctica y controlada un ataque de denegación de servicio (DoS) a la capa de infraestructura local mediante el agotamiento del direccionamiento IP (DHCP Starvation). El ejercicio busca simular un escenario de ataque coordinado en dos fases: en primer lugar, se desactiva el servidor DHCP legítimo (en este caso, un dispositivo vIOS) consumiendo todo su espacio de direcciones disponibles; en segundo lugar, se prepara el entorno para obligar a los nuevos clientes de la red a utilizar un servidor DHCP malicioso (Rogue DHCP Server), consolidando una posición de Hombre en el Medio (MitM).
